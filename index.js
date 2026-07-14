@@ -47,7 +47,7 @@ async function main() {
     input: [
       {
         role: "system",
-        "content": "You are hermes-3-llama model. Always gives response in less than 50 words."
+        "content": "You are tencent hy3 model. Always gives response in less than 50 words."
       }, 
       {
         "role": "user",
@@ -60,7 +60,7 @@ async function main() {
   });
 
  // console.log(completion.choices[0].message);
-  console.log(completion.output_parsed);
+//  console.log(completion.output_parsed);
   const json = JSON.stringify(completion.output_parsed);
   console.log("model1:",json);
   const answer1 = json;

@@ -4,7 +4,7 @@ It is a CLI-based LLM application that generates consistent answers.
 
 
 ### How the Project Works?
-It take outputs of two ai models and give it to the final evaluator model(GEMINI), which compares the two ouput and gives final result.
+It takes outputs of two ai models and give it to the final evaluator model(GEMINI), which compares the two ouput and gives final result.
 
 
 

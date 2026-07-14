@@ -9,8 +9,4 @@ Tencent hy3 model and gemini-3.1-flash-lite model.
 
 ### How the self-consistency flow is implememented?
 
-User Prompt   --->   Model 1   ------> |-------------------------|  
-   |                                   |    Evaluator Model      | 
-   |                                   |      (Gemini)           | --------------> Final Output
-   |                                   |                         |
-   -------------->  Model 2   -------> |-------------------------|                        
+<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/17b49857-215a-46dd-a410-7e196051a1db" />
